@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <ListPreference 
+        android:key="userHeight"
+        android:dialogTitle="用户身高(cm)"
+        android:title="身高"
+        android:entries="@array/userHeight"
+        android:entryValues="@array/HeightValue"
+        android:defaultValue="175.0"
+        android:summary="设置用户身高" />
+    <ListPreference 
+        android:key="userWeight"
+        android:dialogTitle="用户体重(kg)"
+        android:title="体重"
+        android:entries="@array/userWeight"
+        android:entryValues="@array/WeightValue"
+        android:defaultValue="60.0"
+        android:summary="设置用户体重"/>
+    <ListPreference 
+        android:key="userStepLength"
+        android:dialogTitle="用户步长(cm)"
+        android:title="步长"
+        android:entries="@array/userStepLength"
+        android:entryValues="@array/StepLength"
+        android:defaultValue="65.0"
+        android:summary="设置用户步长"/>
+    <ListPreference 
+        android:key="pedometerMode"
+        android:dialogTitle="计步器模式"
+        android:title="计步器模式"
+        android:entries="@array/mode"
+        android:entryValues="@array/modeValue"
+        android:defaultValue="true"
+        android:summary="设置计步器模式"/>
+    
+
+</PreferenceScreen>

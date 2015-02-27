@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/H"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="身高(cm)"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/H_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="20dp" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/W"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="体重(kg)"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/W_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/SL"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="步长(cm)"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/SL_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/M"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="模式" 
+        android:textSize="20dp"/>
+
+    <RadioGroup
+        android:id="@+id/Mode_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="跑步" />
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="行走" />
+    </RadioGroup>
+
+</LinearLayout>

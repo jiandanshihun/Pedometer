@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="50dp"
+        android:layout_height="40sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/top" />
+    
+    <TextView
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:text="开始跑步"
+        android:textColor="#2F4F4F"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/blue"
+        android:layout_width="50dp"
+        android:layout_height="60sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageView2"
+        android:scaleType="fitXY"
+        android:src="@drawable/blue" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/blue"
+        android:layout_centerHorizontal="true"
+        android:text="00 : 00"
+        android:textColor="#2F4F4F"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_alignBaseline="@+id/button1"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_alignParentRight="true"
+        android:alpha="0.7"
+        android:text="结束"
+        android:textColor="#2F4F4F" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/blue"
+        android:text="跑速(min/km)"
+        android:textColor="#2F4F4F"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView01"
+        android:layout_alignBottom="@+id/TextView01"
+        android:layout_alignParentRight="true"
+        android:text="卡路里(kcal)"
+        android:textColor="#2F4F4F"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView4"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:text="  距离(km)  "
+        android:textColor="#2F4F4F"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="14dp"
+        android:layout_toLeftOf="@+id/textView1"
+        android:text="00：00"
+        android:textColor="#2F4F4F"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/distance_value22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView03"
+        android:layout_alignBottom="@+id/TextView03"
+        android:layout_toRightOf="@+id/button1"
+        android:text="0.00"
+        android:textColor="#2F4F4F"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/TextView05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView04"
+        android:layout_alignBottom="@+id/TextView04"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="19dp"
+        android:text="0"
+        android:textColor="#2F4F4F"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView03"
+        android:alpha="0.7"
+        android:text="开始"
+        android:textColor="#2F4F4F" />
+
+</RelativeLayout>

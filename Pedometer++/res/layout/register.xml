@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" >
+
+        <TextView
+            android:id="@+id/sex"
+            android:layout_width="80dp"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="性别"
+            android:textSize="20dp" 
+            android:textColor="#FFFFFF"/>
+
+        <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/man"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="male" />
+
+            <RadioButton
+                android:id="@+id/woman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="female" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/reg_name"
+            android:layout_width="80dp"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="用户名"
+            android:textSize="20dp" 
+            android:textColor="#FFFFFF"/>
+
+        <EditText
+            android:id="@+id/reg_name_in"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="请输入用户名，用户名为不超过20个字符的字母，数字，符号"
+            android:textSize="10dp" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/reg_password"
+            android:layout_width="80dp"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="密码"
+            android:textSize="20dp" 
+            android:textColor="#FFFFFF"/>
+
+        <EditText
+            android:id="@+id/reg_password_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="用户密码最好由数字，字母，符号混合组成"
+            android:inputType="textPassword"
+            android:textSize="10dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/confirm_password"
+            android:layout_width="80dp"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="确认密码"
+            android:textSize="20dp" 
+            android:textColor="#FFFFFF"/>
+
+        <EditText
+            android:id="@+id/confirm_password_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="重复输入密码"
+            android:inputType="textPassword" 
+            android:textSize="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/height"
+            android:layout_width="90dp"
+            android:layout_height="fill_parent"
+            android:text="身高(cm)" 
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="#FFFFFF"/>
+
+        <EditText
+            android:id="@+id/height_in"
+            android:layout_width="60dp"
+            android:layout_height="fill_parent"
+            android:ems="10" 
+            android:hint="cm"/>
+
+        <TextView
+            android:id="@+id/weight"
+            android:layout_width="80dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dp"
+            android:text="体重(kg)" 
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="#FFFFFF"/>
+
+        <EditText
+            android:id="@+id/weight_in"
+            android:layout_width="60dp"
+            android:layout_height="fill_parent"
+            android:ems="10" 
+            android:hint="kg"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/sign_in"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:src="@drawable/blue" 
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:text="提交"
+        android:textColor="#FFFFFF"
+        />
+
+</LinearLayout>

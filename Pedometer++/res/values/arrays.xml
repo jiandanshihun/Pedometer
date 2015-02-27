@@ -1,0 +1,88 @@
+<resources>
+
+    <string-array name="auto_logout_time_key">
+        <item>10 mins.</item>
+        <item>20 mins.</item>
+        <item>30 mins.</item>
+        <item>60 mins.</item>
+    </string-array>
+    <string-array name="auto_logout_time_value">
+        <item>600000</item>
+        <item>1200000</item>
+        <item>1800000</item>
+        <item>3600000</item>
+    </string-array>
+    <string-array name="userHeight">
+        <item>150</item>
+        <item>155</item>
+        <item>160</item>
+        <item>165</item>
+        <item>170</item>
+        <item>175</item>
+        <item>180</item>
+        <item>185</item>
+        <item>190</item>
+    </string-array>
+    <string-array name="userWeight">
+        <item>50</item>
+        <item>55</item>
+        <item>60</item>
+        <item>65</item>
+        <item>70</item>
+        <item>75</item>
+        <item>80</item>
+        <item>85</item>
+    </string-array>
+    <string-array name="userStepLength">
+        <item>50</item>
+        <item>55</item>
+        <item>60</item>
+        <item>65</item>
+        <item>70</item>
+        <item>75</item>
+        <item>80</item>
+        <item>85</item>
+        <item>90</item>
+    </string-array>
+    <string-array name="mode">
+        <item>running</item>
+        <item>walking</item>
+    </string-array>
+    <string-array name="HeightValue">
+        <item>150.0</item>
+        <item>155.0</item>
+        <item>160.0</item>
+        <item>165.0</item>
+        <item>170.0</item>
+        <item>175.0</item>
+        <item>180.0</item>
+        <item>185.0</item>
+        <item>190.0</item>
+    </string-array>
+        <string-array name="WeightValue">
+        <item>50.0</item>
+        <item>55.0</item>
+        <item>60.0</item>
+        <item>65.0</item>
+        <item>70.0</item>
+        <item>75.0</item>
+        <item>80.0</item>
+        <item>85.0</item>
+    </string-array>
+        <string-array name="StepLength">
+        <item>50.0</item>
+        <item>55.0</item>
+        <item>60.0</item>
+        <item>65.0</item>
+        <item>70.0</item>
+        <item>75.0</item>
+        <item>80.0</item>
+        <item>85.0</item>
+        <item>90.0</item>
+    </string-array>
+        <string-array name="modeValue">
+        <item>true</item>
+        <item>false</item>
+    </string-array>
+
+</resources>
